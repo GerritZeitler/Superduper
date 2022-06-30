@@ -3,8 +3,68 @@
 /* font-family: 'Gilda Display', serif;
 font-family: 'Maven Pro', sans-serif; */
 
-*{
+* {
     margin: 0%;
     padding: 0;
     box-sizing: 0;
 }
+
+/* Header 1st Side */
+header {
+    background: #333;
+    width: 100vw;
+    height: 100vh;
+    /* min-width: 400px;
+    min-height: 630px; */
+}
+
+h1 {
+    padding: 5% 5%;
+    width: 100px;
+    color: #ccc;
+}
+
+#grad1 {
+    background-image: linear-gradient(to top right, #8507e1, rgb(62, 56, 180), #3dc8d5);
+    margin: 0 auto;
+    max-width: 400px;
+    max-height: 300px;
+    
+}
+
+#grad1:hover {
+    background-image: linear-gradient(to top right, #3dc8d5, rgb(62, 56, 180), #8507e1);
+}
+
+div p {
+    text-align: center;
+    color: #ccc;
+}
+
+div p:first-child {
+    font-size: 100px;
+    font-optical-sizing: 100;
+    max-width: 350px;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+
+div p:last-child {
+    font-family: 'Maven Pro', sans-serif;
+    width: 280px;
+    margin: 0 auto;
+    text-align: justify;
+    padding-top: 10px;
+    font-size: large;
+}
+header nav ul {
+    margin-top: 30vw;
+
+}
+header nav ul li{
+    text-align: right;
+    color: #ccc;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
